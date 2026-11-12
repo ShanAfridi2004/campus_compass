@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments - Campus Compass</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #243247;
+        }
+
+        header {
+            background: #12345a;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #12345a, #2675a8);
+            color: white;
+            text-align: center;
+            padding: 55px 15px;
+        }
+
+        .container {
+            padding: 45px 8%;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 12px #0002;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            color: #12345a;
+        }
+
+        .card p {
+            padding: 0 15px 15px;
+        }
+
+        footer {
+            background: #12345a;
+            color: white;
+            text-align: center;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Campus Compass</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="departments.html">Departments</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Our Academic Departments</h1>
+    <p>Explore Different Fields of Education</p>
+</section>
+
+<section class="container">
+    <h2>Explore Our Departments</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600" alt="Physics">
+            <h3>Physics Department</h3>
+            <p>Discover the laws of nature, energy and matter.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="Computer Science">
+            <h3>Computer Science</h3>
+            <p>Learn programming, technology and computing.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600" alt="Chemistry">
+            <h3>Chemistry Department</h3>
+            <p>Explore chemical reactions and scientific discoveries.</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Campus Compass | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
